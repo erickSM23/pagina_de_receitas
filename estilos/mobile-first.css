@@ -56,8 +56,6 @@ img {
 
 section > div#imagem {
     margin: -50px -50px 0px -50px;
-
-    background-color: black;
 }
 
 h1, h2, h3, h4, h5 {
@@ -125,7 +123,15 @@ section > div#time > ul > li {
 p.junto {
     display: inline-block;
 
+    color: var(--Stone3);
+
     font-family: var(--font2);
+}
+
+p.separado {
+    color: var(--Brown);
+
+    font-weight: bolder;
 }
 
 /*terminar a ultima parte, adiconar cores, etc*/
