@@ -1,11 +1,30 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 992px) {
+  main {
+    padding: 150px;
+  }
+
+  section {
+    border-radius: 30px;
+  }
+
+  h1#t1 {
+    padding-left: 13px;
+
+    font-size: 3em;
+  }
+
   section > div#imagem {
-    margin: -20px 0px 0px 0px;    
-}
+    margin: 0px 0px 0px 0px;    
+  
+  }
 
   img#imagem {
     border-radius: 30px;
+  }
+
+  p.separado {
+    padding-left: 150px;
   }
 }
